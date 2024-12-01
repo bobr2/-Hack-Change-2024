@@ -23,7 +23,7 @@
             try {
 
                 //путь к json файлу с инфой о пользователе
-                String filePath = ".//src//main//java//com//suir//suir//testjs.json";
+                String filePath = ".//src//main//java//com//suir//suir//example.json"; //<---------- В СЛУЧАЕ ОШИБКИ, ВСТАВЬТЕ АКТУАЛЬНОЕ НАЗВАНИЕ ВХОДНОГО ФАЙЛЯ СЮДА
 
                 ProcessBuilder pb = new ProcessBuilder("python",
                         ".//src//main//java//com//suir//py//otlad1.py", //скрипт

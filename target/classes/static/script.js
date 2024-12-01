@@ -23,7 +23,7 @@ function getRec() {
         .then(data => {
             console.log(data["class"]);
             console.timeEnd("timer1");
-            return data["class"];
+            return data["class"] + ".\n\n" + data["app"];
         })
         .catch(error => {
             console.error('Error:', error);
